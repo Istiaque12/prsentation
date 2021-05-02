@@ -1,0 +1,57 @@
+
+nav{
+    height: 43px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: large;
+    background-image: url(images/pexels-felix-mittermeier-956981.jpg);
+    line-height: 1px;
+}
+nav>ul>li{
+    float: left;
+}
+
+nav li{
+
+    list-style: none;
+    
+    padding: 23px;
+}
+nav li:hover{
+    background-color: rgb(45, 42, 61);
+    height: 30px;
+    border-radius: 7%;
+   
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.dropdown{
+    display: none;
+}
+nav>ul>li:hover>ul{
+    display: block;
+    color: black;
+    border-radius: 10%;
+}
+nav>ul>li>ul{
+    background-color: rgb(6, 175, 175);
+}
+.part{
+    padding-top: 5%;
+    
+}
+.size{
+    height: 100px;
+    width: 100px;
+}
+.air{
+    position:relative;
+    left: 50%;
+}
+.sec{
+    float: left;
+}
